@@ -168,6 +168,10 @@ hr {
   margin-right: 0.5rem;
 }
 
+input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+}
+
 .article {
   padding: 1rem 0;
 }
